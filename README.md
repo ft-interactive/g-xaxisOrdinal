@@ -79,7 +79,7 @@ currentFrame.plot()
 
 #myAxis<b>.tickSize([Number])</b> Hardly ever used on an ordinal scale as usually no tck are required so set by default to zero.
 
-#myAxis<b>.offset([Number])</b> The distance from the axis is positioned from the top of the <b>/plot()</b> container. Most ordinal scales on the x-axis are alligned to the bottom so this is usually set to the current frame height.
+#myAxis<b>.offset([Number])</b> The distance from the axis is positioned from the top of the <b>.plot()</b> container. Most ordinal scales on the x-axis are alligned to the bottom so this is usually set to the current frame height.
 
 
 
