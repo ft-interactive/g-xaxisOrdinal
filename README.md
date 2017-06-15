@@ -53,6 +53,18 @@ currentFrame.plot()
 
 ![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/position.png)
 
+Specify your the <b>.domain </b> in the same way that would in any other d3 axis
+
+![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/domain.png)
+
+## API reference
+
+#myAxis<b>.domain([Array])</b> defines the axis domain in the same way as you would when creating a normal d3.scaleOrdinal(). If no <b>.domain()</b> is defined the default is ["Oranges", "Lemons", "Apples", "Pears"]
+
+#myAxis<b>.rangeRound([Array])</b> defines the axis bands in the same way as you would when creating a normal d3.scaleOrdinal(), would usually be set to the left margin and width of the <b>.plot()</b> object. If no <b>.range()</b> is defined the default is [40, 300].
+
+#myAxis<b>.offset([Number])</b> The distance from the axis is positioned from the top of the <b>/plot()</b> container. Most ordinal scales on the x-axis are alligned to the bottom so this is usually set to the current frame height.
+
 
 
 
