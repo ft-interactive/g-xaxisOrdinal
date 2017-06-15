@@ -55,6 +55,18 @@ currentFrame.plot()
 
 Specify your the <b>.domain </b> in the same way that would in any other d3 axis
 
+```
+const myXAxis = gAxis.xaxisOrdinal()
+
+myXAxis
+	.rangeRound([0,currentFrame.dimension().width])
+	.offset(currentFrame.dimension().height);
+	.domain(myCatagories)
+
+currentFrame.plot()
+	.call(myXAxis);
+```
+
 ![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/domain.png)
 
 ## API reference
