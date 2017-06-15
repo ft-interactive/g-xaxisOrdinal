@@ -38,6 +38,23 @@ currentFrame.plot()
 
 ![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/default.png)
 
+Set the <b>.rangeRound()</b> and the <b> .offset() </b> to the current frame width and height to make the axis correctly fit in the <b>.plot</b> object.
+
+```
+const myXAxis = gAxis.xaxisOrdinal()
+
+myXAxis
+	.rangeRound([0,currentFrame.dimension().width])
+	.offset(currentFrame.dimension().height);
+
+currentFrame.plot()
+	.call(myXAxis);
+```
+
+![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/position.png)
+
+
+
 
 
 
