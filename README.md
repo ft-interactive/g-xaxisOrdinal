@@ -36,7 +36,7 @@ currentFrame.plot()
 	.call(myXAxis);
 ```
 
-![alt tag](https://github.com/ft-interactive/g-yaxisOrdinal/blob/master/images/default.png)
+![alt tag](https://github.com/ft-interactive/g-xaxisOrdinal/blob/master/images/default.png)
 
 
 
