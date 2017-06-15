@@ -63,6 +63,8 @@ Specify your the <b>.domain </b> in the same way that would in any other d3 axis
 
 #myAxis<b>.rangeRound([Array])</b> defines the axis bands in the same way as you would when creating a normal d3.scaleOrdinal(), would usually be set to the left margin and width of the <b>.plot()</b> object. If no <b>.range()</b> is defined the default is [40, 300].
 
+#myAxis<b>.tickSize([Number])</b> Hardly ever used on an ordinal scale as usually no tck are required so set by default to zero.
+
 #myAxis<b>.offset([Number])</b> The distance from the axis is positioned from the top of the <b>/plot()</b> container. Most ordinal scales on the x-axis are alligned to the bottom so this is usually set to the current frame height.
 
 
