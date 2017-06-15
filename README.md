@@ -22,3 +22,24 @@ Add the following line to the header of you index.html file.
 <script src="to come"> </script>
 
 ```
+### NPM install
+Not yet deployed
+
+## Getting started
+<b>Note</b> All examples shown are from the web frame style
+
+Add the following code to your index.js to append a default x-axis to the .plot object (grey here but is not normally visible). Bye default there are no tick on an ordinal x-axis, these are set to zero.
+
+```
+const myXAxis = gAxis.xaxisOrdinal()
+currentFrame.plot()
+	.call(myXAxis);
+```
+
+![alt tag](https://github.com/ft-interactive/g-yaxisOrdinal/blob/master/images/default.png)
+
+
+
+
+
+
